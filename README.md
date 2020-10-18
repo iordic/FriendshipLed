@@ -9,3 +9,5 @@ Podéis crear los PR e issues que queráis, para eso lo he creado. :)
 
 ## Esquema planteado
 ![esquema](/res/esquema.png)
+
+(Si se consigue esto lo siguiente podría ser una aplicación android que pudiera cambiar el color y poner el mensaje personalizado).
