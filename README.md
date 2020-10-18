@@ -6,3 +6,6 @@ Podéis crear los PR e issues que queráis, para eso lo he creado. :)
 ### Ideas así rápido
 * Un backend con api para que se puedan vincular los esp entre ellos con algún token o algo.
 * Cambiar el color del led, configurar la conexión al wifi y víncular al backend desde una aplicación en Java a través del puerto serie.
+
+## Esquema planteado
+![esquema](/res/esquema.png)
