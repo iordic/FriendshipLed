@@ -25,7 +25,7 @@ void integerToRGB(uint32_t value) {
   gColor = (value & 0xff00) >> 8;
   bColor = value & 0xff;
 
-  analogWrite(redLed, rColor);
-  analogWrite(greenLed, gColor);
-  analogWrite(blueLed, bColor);
+  analogWrite(redLed, map(rColor,0,255,0,1023));
+  analogWrite(greenLed, map(gColor,0,255,0,1023));
+  analogWrite(blueLed, map(bColor,0,255,0,1023));
 }
