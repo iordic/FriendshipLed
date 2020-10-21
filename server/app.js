@@ -1,15 +1,7 @@
-// Esta cosa es copiada de la web no sé
-const http = require('http');
+const aedes = require('aedes')()
+const server = require('net').createServer(aedes.handle)
+const port = 1883
 
-const hostname = '127.0.0.1';
-const port = 3000;
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World');
-});
-
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+server.listen(port, function () {
+  console.log('server started and listening on port ', port)
+})
